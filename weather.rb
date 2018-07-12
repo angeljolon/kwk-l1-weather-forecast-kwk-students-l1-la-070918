@@ -8,8 +8,20 @@
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
 def location(weather)
+  weather = {
+    :city => "New York",
+    :description => "Partly Cloudy",
+	  :temperature_farenheit => "66.3"
+   }
+   
+   weather ["key"] = "value"
+   
+   puts weather ["New York"]
 	
-end
+  end
+
+location(weather) 
+
 
 # 2. Using the location method as a guide, write a  method called "description" so it returns the description from the weather hash. 
 
