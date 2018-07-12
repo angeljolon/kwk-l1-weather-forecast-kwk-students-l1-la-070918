@@ -9,7 +9,7 @@ def location(weather)
 	:temperature_farenheit => 66.3
 }
 puts city = weather.values
- return weather[:city]
+ return city
 end
 
 
