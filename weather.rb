@@ -8,8 +8,7 @@ def location(weather)
 	:description => "Partly Cloudy",
 	:temperature_farenheit => 66.3
 }
-puts city = weather.values
- return city
+ return weather[:city]
 end
  
 
